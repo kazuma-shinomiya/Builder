@@ -1,6 +1,6 @@
-public abstract class Builder {
-    public abstract void makeTitle(String title);
-    public abstract void makeString(String string);
-    public abstract void makeItems(String[] items);
-    public abstract void close();
+public interface Builder {
+    void makeTitle(String title);
+    void makeString(String string);
+    void makeItems(String[] items);
+    void close();
 }
